@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume template</title>
+    <style>
+      html {
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+        padding: 0 1rem;
+      }
+
+      .cards {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      }
+      .cards iframe{
+        height: 50vh;
+      }
+      h1 {
+        text-align: center; 
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+        background-color: #000;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Choose Template</h1>
+    <div class="cards">
+      <a href="Resume1"
+        ><iframe
+          src="Resume1/index.html"
+          title="Iframe Example"
+          width="100%"
+        ></iframe>
+        view</a
+      >
+
+      <a href="Resume2"
+        ><iframe src="Resume2" title="Iframe Example" width="100%"></iframe>
+        view</a
+      >
+      <a href="Resume3"
+        ><iframe src="Resume3" title="Iframe Example" width="100%"></iframe>
+        view</a
+      >
+      <a href="Resume4"
+        ><iframe src="Resume4" title="Iframe Example" width="100%"></iframe>
+        view</a
+      >
+      <a href="advance"
+        ><iframe src="advance" title="Iframe Example" width="100%"></iframe>
+        view</a
+      >
+    </div>
+  </body>
+</html>
